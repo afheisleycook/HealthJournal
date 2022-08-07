@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial">
+        <link rel="stylesheet" href="static/css/app.css">
+        <script src="static/js/app.js"></script>
+        <link rel="icon" type="image/" href="static/imgs/favicon.ico">
+
+
+        </script>
+    </head>
+    <body>
+        <header>
+            health journal
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">home</a>
+                </li>
+                <li>
+                    <a href="/about">about</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <form action="/add" method="post">
+                <label for="title">
+                    Title
+                    <input type="text" name="name">
+                </label>
+                <label for="description">
+                    Description
+                    <input type="text" name="description">
+                </label>
+                <input type="submit" value="add entry">
+            </form>
+            <div class="container">
+                
+            </div>
+        </main>
+
+
+        <footer>
+            my private blog
+
+        </footer>
+    </body>
+</html>
